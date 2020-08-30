@@ -4,6 +4,7 @@ on:
       - master
 
 env:
+  # The RG already existing with resources like Storage, DNS, keyVault, CDN, ...
   ResourceGroup: pitscherswelt
 jobs:
   build:
