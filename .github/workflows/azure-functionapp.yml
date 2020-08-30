@@ -4,7 +4,7 @@ on:
       - master
 
 env:
-  ResourceGroup: pitscherswelt-func
+  ResourceGroup: pitscherswelt
 jobs:
   build:
     runs-on: ubuntu-latest
